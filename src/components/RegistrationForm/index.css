@@ -1,0 +1,96 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 350px;
+  width: 450px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  outline: none;
+  padding: 25px;
+  border-radius: 15px;
+  font-family: 'Roboto';
+}
+.main-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ea580c;
+}
+.label-text {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+.name-input {
+  font-size: 15px;
+  color: #475569;
+  margin: 0px;
+  padding: 5px;
+  height: 36px;
+  width: 400px;
+  border: 1px solid #9aa5b1;
+  border-radius: 5px;
+}
+.name-input-error {
+  font-size: 15px;
+  color: #475569;
+  margin-bottom: 0px;
+  padding: 5px;
+  height: 36px;
+  width: 400px;
+  border: 2px solid #ff0b37;
+  border-radius: 5px;
+  background-color: #fef2f4;
+}
+p {
+  color: #ff0b37;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 0px;
+}
+.button {
+  color: #ffffff;
+  background-color: #ea580c;
+  border: 0px;
+  height: 36px;
+  width: 75px;
+  border-radius: 5px;
+  align-self: center;
+}
+.submit-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 350px;
+  width: 450px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  padding: 25px;
+  border-radius: 15px;
+  font-family: 'Roboto';
+}
+.submitted {
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+}
+.button-submit {
+  color: #ffffff;
+  background-color: #ea580c;
+  border: 0px;
+  height: 36px;
+  border-radius: 5px;
+  align-self: center;
+}
